@@ -1,0 +1,5 @@
+
+{
+  "includes": ["mobx"],
+  "targetDir": "src/libs"
+}
