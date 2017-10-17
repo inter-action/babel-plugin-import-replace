@@ -1,8 +1,12 @@
 {
   "name": "babel-plugin-import-replace",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "",
   "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:inter-action/babel-plugin-import-replace.git"
+  },
   "scripts": {
     "test": "BABEL_ENV=development ava src/__test__/*.js",
     "build": "BABEL_ENV=production babel src --out-dir build"
